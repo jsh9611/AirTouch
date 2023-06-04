@@ -8,12 +8,12 @@ let package = Package(
         .iOS(.v14)
     ],
     products: [
-        .library(name: "Airtouch",
-                 targets: ["Airtouch"])
+        .library(name: "AirTouch",
+                 targets: ["AirTouch"])
     ],
     targets: [
-        .target(name: "Airtouch",
-                path: "Airtouch/Classes")
+        .target(name: "AirTouch",
+                path: "AirTouch/Classes")
     ],
     swiftLanguageVersions: [
         .v5
