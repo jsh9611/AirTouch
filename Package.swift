@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Airtouch",
+    name: "AirTouch",
     platforms: [
         .iOS(.v14)
     ],
