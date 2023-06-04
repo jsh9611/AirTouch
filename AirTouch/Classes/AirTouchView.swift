@@ -8,11 +8,12 @@
 import SwiftUI
 
 public struct AirTouchView<Content: View>: View {
-    @StateObject var airTouchController = AirTouchController()
+    @ObservedObject var airTouchController: AirTouchController
     
     let content: () -> Content
     
-    public init(content: @escaping () -> Content) {
+    public init(airTouchController: AirTouchController, content: @escaping () -> Content) {
+        self.airTouchController = airTouchController
         self.content = content
     }
 

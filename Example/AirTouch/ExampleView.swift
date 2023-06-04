@@ -17,7 +17,7 @@ struct ExampleView: View {
     @StateObject var airTouchController = AirTouchController()
     
     var body: some View {
-        AirTouchView {
+        AirTouchView(airTouchController: airTouchController) {
             Text("Example View")
                 .onReceive(airTouchController.$pointStatus) { _ in
                     if airTouchController.selectPosition([4,7]) {
