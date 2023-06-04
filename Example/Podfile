@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AirTouch_Example' do
+  pod 'AirTouch', :path => '../'
+
+  target 'AirTouch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
