@@ -1,0 +1,6 @@
+framework module AirTouch {
+  umbrella header "AirTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

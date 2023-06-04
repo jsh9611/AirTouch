@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'AirTouch_Example' do
   pod 'AirTouch', :path => '../'
@@ -9,5 +9,13 @@ target 'AirTouch_Example' do
     inherit! :search_paths
 
     
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["ONLY_ACTIVE_ARCH"] = "NO"
+    end
   end
 end

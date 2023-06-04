@@ -1,0 +1,22 @@
+{
+  "name": "AirTouch",
+  "version": "0.1.0",
+  "summary": "A short description of AirTouch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jsh9611/AirTouch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jsh9611": "jangsh9611@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/jsh9611/AirTouch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AirTouch/Classes/**/*"
+}

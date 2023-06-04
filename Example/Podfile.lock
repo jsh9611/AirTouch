@@ -1,0 +1,16 @@
+PODS:
+  - AirTouch (0.1.0)
+
+DEPENDENCIES:
+  - AirTouch (from `../`)
+
+EXTERNAL SOURCES:
+  AirTouch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AirTouch: b8c3f95d024c53fa6cc4314a12af14cd84af8b1c
+
+PODFILE CHECKSUM: ddc81ee9d1ffeedb014bc0e74e96c20ff24b7db7
+
+COCOAPODS: 1.12.1

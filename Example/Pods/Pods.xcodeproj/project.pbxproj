@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111E7A772A2CAF590062CD62 /* AirTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E7A762A2CAF590062CD62 /* AirTouchView.swift */; };
+		111E7A7D2A2CB2FA0062CD62 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E7A792A2CB2FA0062CD62 /* CameraPreview.swift */; };
+		111E7A7E2A2CB2FA0062CD62 /* OverlayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E7A7A2A2CB2FA0062CD62 /* OverlayPoint.swift */; };
+		111E7A7F2A2CB2FA0062CD62 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E7A7B2A2CB2FA0062CD62 /* CameraViewController.swift */; };
+		111E7A802A2CB2FA0062CD62 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E7A7C2A2CB2FA0062CD62 /* CameraView.swift */; };
+		20E2300F9E53D7CC0FA561D0BC9BB751 /* AirTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09C0CDBAA22D6A9AE081378310E3ACC /* AirTouchController.swift */; };
+		425C8E40BA591D583655EDEBEEBBACCD /* AirTouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F3B678907F258BF70D99C3C16953FA /* AirTouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581C733D61EF82F410F2B0E7C918DEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		650CA84AC97B629FC57518C1CA63C38A /* Pods-AirTouch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09520F6DA6ED51557EB0FA8F623E983 /* Pods-AirTouch_Tests-dummy.m */; };
+		705E1BED4EE8ABF3F24561E60BF1271F /* Pods-AirTouch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E54A04472BA0C0229A55AFDD80D5F9 /* Pods-AirTouch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89CA7857ABC44E16FE95D877C0E180C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A966EB27514DEB1C10ABE4DCE8C6E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BE91E0A499F5745F5550693E312ABF4C /* AirTouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62494FA3AB587BA7BBCE96C06059DCD /* AirTouch-dummy.m */; };
+		C11364B44F043FADF2A29F28CB0F2738 /* Pods-AirTouch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C48DE9272BA9FB961CB4DC07A4B42 /* Pods-AirTouch_Example-dummy.m */; };
+		C556A01B1E6CAA732D69A6F37E2EE40A /* Pods-AirTouch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424CE1945F985A3BA769726593B492A7 /* Pods-AirTouch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9727B7F1A37A345D557BA89E48B5E296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828305B9CBE161A662D7DD98EDAEDE01;
+			remoteInfo = AirTouch;
+		};
+		B4E6E60DC4166B88FC2CBF294A7FEF9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C296B2A6B681C65404179043F2A5618A;
+			remoteInfo = "Pods-AirTouch_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06555A45D2A0E57FF738DE7CD532DE92 /* AirTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirTouch.release.xcconfig; sourceTree = "<group>"; };
+		111E7A762A2CAF590062CD62 /* AirTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirTouchView.swift; path = AirTouch/Classes/AirTouchView.swift; sourceTree = "<group>"; };
+		111E7A792A2CB2FA0062CD62 /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		111E7A7A2A2CB2FA0062CD62 /* OverlayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPoint.swift; sourceTree = "<group>"; };
+		111E7A7B2A2CB2FA0062CD62 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		111E7A7C2A2CB2FA0062CD62 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1F613D21AC77097BFBBAFFCC41A8F961 /* Pods-AirTouch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirTouch_Tests.modulemap"; sourceTree = "<group>"; };
+		26961DCD217DD33FD795D19C61AEC60E /* Pods-AirTouch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirTouch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		302BAB23F1C6C60FF9F2ECD54188FB87 /* Pods-AirTouch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AirTouch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36DD44E8A1BBAFB5F08145CC28D604C2 /* AirTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AirTouch.debug.xcconfig; sourceTree = "<group>"; };
+		3AAAA61AF842444E5BFEA386AE72BD1D /* Pods-AirTouch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirTouch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		424CE1945F985A3BA769726593B492A7 /* Pods-AirTouch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirTouch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D8DF06D1D7057C5E4A9284847143B15 /* AirTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AirTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2CE6A64A2938067AD3E1DAC840B448 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		51E54A04472BA0C0229A55AFDD80D5F9 /* Pods-AirTouch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AirTouch_Example-umbrella.h"; sourceTree = "<group>"; };
+		5DE4275E006AC2BDBA47334A1A3B8741 /* Pods_AirTouch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTouch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B17C70F1353627CE83A28731FD271E1 /* Pods-AirTouch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirTouch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74F3B678907F258BF70D99C3C16953FA /* AirTouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirTouch-umbrella.h"; sourceTree = "<group>"; };
+		81B768CA2F9701FB371FE66AEA209DF7 /* Pods-AirTouch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AirTouch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8425D170C8675E1942C9897C32A6C937 /* Pods-AirTouch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirTouch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		894A7F5DED42706491132E95E4DF8804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8AE1E6AC5830D162B0BE1C0D6A324415 /* AirTouch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AirTouch-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB537FD18B8F297B4F795EF34EF419EF /* Pods_AirTouch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTouch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC240FF8027B6598F7CDA5555CCAFAE5 /* AirTouch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AirTouch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B09C0CDBAA22D6A9AE081378310E3ACC /* AirTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirTouchController.swift; path = AirTouch/Classes/AirTouchController.swift; sourceTree = "<group>"; };
+		C524A97B919F5E8E99C0A9C88E7B0E0E /* Pods-AirTouch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirTouch_Example-Info.plist"; sourceTree = "<group>"; };
+		D28653DFB113CC40123679CF8C4E4152 /* AirTouch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AirTouch-Info.plist"; sourceTree = "<group>"; };
+		D8D286A94C8E4CB3565F9CD3E92E8046 /* Pods-AirTouch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirTouch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD15B988EA53EB0252AA66D700C6210 /* Pods-AirTouch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AirTouch_Example.modulemap"; sourceTree = "<group>"; };
+		E27C48DE9272BA9FB961CB4DC07A4B42 /* Pods-AirTouch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirTouch_Example-dummy.m"; sourceTree = "<group>"; };
+		E62494FA3AB587BA7BBCE96C06059DCD /* AirTouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AirTouch-dummy.m"; sourceTree = "<group>"; };
+		E9BDA02C65A77747F7D8B9EB5BD9D264 /* Pods-AirTouch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirTouch_Tests-Info.plist"; sourceTree = "<group>"; };
+		ED425764F1C566E3D68C409D5ECF40E7 /* Pods-AirTouch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AirTouch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F09520F6DA6ED51557EB0FA8F623E983 /* Pods-AirTouch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AirTouch_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB7F1FA980F366A176D6746E4936DB6A /* AirTouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AirTouch.modulemap; sourceTree = "<group>"; };
+		FF63F38F7CC92F7BFD2E2DC5BF655656 /* Pods-AirTouch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AirTouch_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64409777C4E8A4E6516A01E639730965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581C733D61EF82F410F2B0E7C918DEA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815AB486F1B46086785BF38356912B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A966EB27514DEB1C10ABE4DCE8C6E69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A66AEA28CC700F2FDF472185A5EBA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CA7857ABC44E16FE95D877C0E180C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111E7A782A2CB2FA0062CD62 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				111E7A792A2CB2FA0062CD62 /* CameraPreview.swift */,
+				111E7A7A2A2CB2FA0062CD62 /* OverlayPoint.swift */,
+				111E7A7B2A2CB2FA0062CD62 /* CameraViewController.swift */,
+				111E7A7C2A2CB2FA0062CD62 /* CameraView.swift */,
+			);
+			name = Camera;
+			path = AirTouch/Classes/Camera;
+			sourceTree = "<group>";
+		};
+		428F8FA553324A9F2CF08C22C4D413FB /* Pods-AirTouch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F613D21AC77097BFBBAFFCC41A8F961 /* Pods-AirTouch_Tests.modulemap */,
+				26961DCD217DD33FD795D19C61AEC60E /* Pods-AirTouch_Tests-acknowledgements.markdown */,
+				3AAAA61AF842444E5BFEA386AE72BD1D /* Pods-AirTouch_Tests-acknowledgements.plist */,
+				F09520F6DA6ED51557EB0FA8F623E983 /* Pods-AirTouch_Tests-dummy.m */,
+				E9BDA02C65A77747F7D8B9EB5BD9D264 /* Pods-AirTouch_Tests-Info.plist */,
+				424CE1945F985A3BA769726593B492A7 /* Pods-AirTouch_Tests-umbrella.h */,
+				8425D170C8675E1942C9897C32A6C937 /* Pods-AirTouch_Tests.debug.xcconfig */,
+				6B17C70F1353627CE83A28731FD271E1 /* Pods-AirTouch_Tests.release.xcconfig */,
+			);
+			name = "Pods-AirTouch_Tests";
+			path = "Target Support Files/Pods-AirTouch_Tests";
+			sourceTree = "<group>";
+		};
+		551820FC2823410F5C1BB205C29424A1 /* Pods-AirTouch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DAD15B988EA53EB0252AA66D700C6210 /* Pods-AirTouch_Example.modulemap */,
+				302BAB23F1C6C60FF9F2ECD54188FB87 /* Pods-AirTouch_Example-acknowledgements.markdown */,
+				ED425764F1C566E3D68C409D5ECF40E7 /* Pods-AirTouch_Example-acknowledgements.plist */,
+				E27C48DE9272BA9FB961CB4DC07A4B42 /* Pods-AirTouch_Example-dummy.m */,
+				81B768CA2F9701FB371FE66AEA209DF7 /* Pods-AirTouch_Example-frameworks.sh */,
+				C524A97B919F5E8E99C0A9C88E7B0E0E /* Pods-AirTouch_Example-Info.plist */,
+				51E54A04472BA0C0229A55AFDD80D5F9 /* Pods-AirTouch_Example-umbrella.h */,
+				D8D286A94C8E4CB3565F9CD3E92E8046 /* Pods-AirTouch_Example.debug.xcconfig */,
+				FF63F38F7CC92F7BFD2E2DC5BF655656 /* Pods-AirTouch_Example.release.xcconfig */,
+			);
+			name = "Pods-AirTouch_Example";
+			path = "Target Support Files/Pods-AirTouch_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6593D14F5431789C38DE2B45258E4424 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC240FF8027B6598F7CDA5555CCAFAE5 /* AirTouch.podspec */,
+				4E2CE6A64A2938067AD3E1DAC840B448 /* LICENSE */,
+				894A7F5DED42706491132E95E4DF8804 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		802FDA27BA1E62622CCB165E542018DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8DF06D1D7057C5E4A9284847143B15 /* AirTouch.framework */,
+				AB537FD18B8F297B4F795EF34EF419EF /* Pods_AirTouch_Example.framework */,
+				5DE4275E006AC2BDBA47334A1A3B8741 /* Pods_AirTouch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BFBA24CB33B5AEC3A89AB61149746C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98BF9820AE7A8DA34F7114FA0C6F482 /* AirTouch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE24402ECF85E1D00B83C2A222610B51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F1FA980F366A176D6746E4936DB6A /* AirTouch.modulemap */,
+				E62494FA3AB587BA7BBCE96C06059DCD /* AirTouch-dummy.m */,
+				D28653DFB113CC40123679CF8C4E4152 /* AirTouch-Info.plist */,
+				8AE1E6AC5830D162B0BE1C0D6A324415 /* AirTouch-prefix.pch */,
+				74F3B678907F258BF70D99C3C16953FA /* AirTouch-umbrella.h */,
+				36DD44E8A1BBAFB5F08145CC28D604C2 /* AirTouch.debug.xcconfig */,
+				06555A45D2A0E57FF738DE7CD532DE92 /* AirTouch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AirTouch";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				96BFBA24CB33B5AEC3A89AB61149746C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				802FDA27BA1E62622CCB165E542018DA /* Products */,
+				DF47FCA867118B3956270D39A3D76830 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98BF9820AE7A8DA34F7114FA0C6F482 /* AirTouch */ = {
+			isa = PBXGroup;
+			children = (
+				B09C0CDBAA22D6A9AE081378310E3ACC /* AirTouchController.swift */,
+				111E7A762A2CAF590062CD62 /* AirTouchView.swift */,
+				111E7A782A2CB2FA0062CD62 /* Camera */,
+				6593D14F5431789C38DE2B45258E4424 /* Pod */,
+				CE24402ECF85E1D00B83C2A222610B51 /* Support Files */,
+			);
+			name = AirTouch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DF47FCA867118B3956270D39A3D76830 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				551820FC2823410F5C1BB205C29424A1 /* Pods-AirTouch_Example */,
+				428F8FA553324A9F2CF08C22C4D413FB /* Pods-AirTouch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		157114025CEA3B50E729876187E27CDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705E1BED4EE8ABF3F24561E60BF1271F /* Pods-AirTouch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBE33123BFDD7AF1F8F4D3E324B41F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C8E40BA591D583655EDEBEEBBACCD /* AirTouch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CF7CB861B4DA85B11586AFE597AF47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C556A01B1E6CAA732D69A6F37E2EE40A /* Pods-AirTouch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		828305B9CBE161A662D7DD98EDAEDE01 /* AirTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC8AFD90E1909580DB96E1B43BEDC4C /* Build configuration list for PBXNativeTarget "AirTouch" */;
+			buildPhases = (
+				8FBE33123BFDD7AF1F8F4D3E324B41F5 /* Headers */,
+				AABAC5CF37E0574A7C383268C9CCEDAF /* Sources */,
+				815AB486F1B46086785BF38356912B9A /* Frameworks */,
+				A6B7C0A16CCD80C88955170273CE6018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTouch;
+			productName = AirTouch;
+			productReference = 4D8DF06D1D7057C5E4A9284847143B15 /* AirTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C296B2A6B681C65404179043F2A5618A /* Pods-AirTouch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845A7561B52CD7C6B69D99D5CB8854FB /* Build configuration list for PBXNativeTarget "Pods-AirTouch_Example" */;
+			buildPhases = (
+				157114025CEA3B50E729876187E27CDC /* Headers */,
+				531F37689B43C07702FC567FD304E28D /* Sources */,
+				A2A66AEA28CC700F2FDF472185A5EBA2 /* Frameworks */,
+				FF058F61634AA40C4100EC005E6DE9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEFC0800E68904297E307C2C9E57971 /* PBXTargetDependency */,
+			);
+			name = "Pods-AirTouch_Example";
+			productName = Pods_AirTouch_Example;
+			productReference = AB537FD18B8F297B4F795EF34EF419EF /* Pods_AirTouch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F65ACB9901EED83572CE3BE5A6E5F8EE /* Pods-AirTouch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6A04C9EEAC38C80BDE76E734B71DCB /* Build configuration list for PBXNativeTarget "Pods-AirTouch_Tests" */;
+			buildPhases = (
+				B1CF7CB861B4DA85B11586AFE597AF47 /* Headers */,
+				CC3E3C11D0F52AED51D5F3C88DAE70D7 /* Sources */,
+				64409777C4E8A4E6516A01E639730965 /* Frameworks */,
+				A85A39EA757C93E17A100801CC654619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3C01B6FDBD61B9B2DCC20DC9452A3C /* PBXTargetDependency */,
+			);
+			name = "Pods-AirTouch_Tests";
+			productName = Pods_AirTouch_Tests;
+			productReference = 5DE4275E006AC2BDBA47334A1A3B8741 /* Pods_AirTouch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 802FDA27BA1E62622CCB165E542018DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828305B9CBE161A662D7DD98EDAEDE01 /* AirTouch */,
+				C296B2A6B681C65404179043F2A5618A /* Pods-AirTouch_Example */,
+				F65ACB9901EED83572CE3BE5A6E5F8EE /* Pods-AirTouch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B7C0A16CCD80C88955170273CE6018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85A39EA757C93E17A100801CC654619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF058F61634AA40C4100EC005E6DE9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531F37689B43C07702FC567FD304E28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11364B44F043FADF2A29F28CB0F2738 /* Pods-AirTouch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABAC5CF37E0574A7C383268C9CCEDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91E0A499F5745F5550693E312ABF4C /* AirTouch-dummy.m in Sources */,
+				111E7A802A2CB2FA0062CD62 /* CameraView.swift in Sources */,
+				111E7A7D2A2CB2FA0062CD62 /* CameraPreview.swift in Sources */,
+				20E2300F9E53D7CC0FA561D0BC9BB751 /* AirTouchController.swift in Sources */,
+				111E7A772A2CAF590062CD62 /* AirTouchView.swift in Sources */,
+				111E7A7E2A2CB2FA0062CD62 /* OverlayPoint.swift in Sources */,
+				111E7A7F2A2CB2FA0062CD62 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3E3C11D0F52AED51D5F3C88DAE70D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650CA84AC97B629FC57518C1CA63C38A /* Pods-AirTouch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3C01B6FDBD61B9B2DCC20DC9452A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AirTouch_Example";
+			target = C296B2A6B681C65404179043F2A5618A /* Pods-AirTouch_Example */;
+			targetProxy = B4E6E60DC4166B88FC2CBF294A7FEF9C /* PBXContainerItemProxy */;
+		};
+		8BEFC0800E68904297E307C2C9E57971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AirTouch;
+			target = 828305B9CBE161A662D7DD98EDAEDE01 /* AirTouch */;
+			targetProxy = 9727B7F1A37A345D557BA89E48B5E296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		143030C8FC848840B1352EED3C9A71E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B17C70F1353627CE83A28731FD271E1 /* Pods-AirTouch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AirTouch_Tests/Pods-AirTouch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AirTouch_Tests/Pods-AirTouch_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AE2F35CF8E1E686A8651D88FCEF2894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF63F38F7CC92F7BFD2E2DC5BF655656 /* Pods-AirTouch_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AirTouch_Example/Pods-AirTouch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AirTouch_Example/Pods-AirTouch_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		389BA15A210F036AA2D826131C287CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D286A94C8E4CB3565F9CD3E92E8046 /* Pods-AirTouch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AirTouch_Example/Pods-AirTouch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AirTouch_Example/Pods-AirTouch_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59205C9FAE45ECBD51E929E4BFC53A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8425D170C8675E1942C9897C32A6C937 /* Pods-AirTouch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AirTouch_Tests/Pods-AirTouch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AirTouch_Tests/Pods-AirTouch_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEEF7821C6B7C5E80F9B6EB7E362B99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06555A45D2A0E57FF738DE7CD532DE92 /* AirTouch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AirTouch/AirTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AirTouch/AirTouch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AirTouch/AirTouch.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = AirTouch;
+				PRODUCT_NAME = AirTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F280A02BEFD0BD8D166AAC687ED99E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DD44E8A1BBAFB5F08145CC28D604C2 /* AirTouch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AirTouch/AirTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AirTouch/AirTouch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AirTouch/AirTouch.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = AirTouch;
+				PRODUCT_NAME = AirTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6A04C9EEAC38C80BDE76E734B71DCB /* Build configuration list for PBXNativeTarget "Pods-AirTouch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59205C9FAE45ECBD51E929E4BFC53A7F /* Debug */,
+				143030C8FC848840B1352EED3C9A71E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC8AFD90E1909580DB96E1B43BEDC4C /* Build configuration list for PBXNativeTarget "AirTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F280A02BEFD0BD8D166AAC687ED99E49 /* Debug */,
+				CEEF7821C6B7C5E80F9B6EB7E362B99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845A7561B52CD7C6B69D99D5CB8854FB /* Build configuration list for PBXNativeTarget "Pods-AirTouch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389BA15A210F036AA2D826131C287CCF /* Debug */,
+				1AE2F35CF8E1E686A8651D88FCEF2894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

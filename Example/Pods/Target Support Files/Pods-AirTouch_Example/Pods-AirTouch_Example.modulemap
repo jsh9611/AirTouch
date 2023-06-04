@@ -1,0 +1,6 @@
+framework module Pods_AirTouch_Example {
+  umbrella header "Pods-AirTouch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
